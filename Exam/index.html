@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>  
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/mustache.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/getPartners.js"></script>
+    <script src="js/getImg.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="width__wrapper">
+                <div class="title">Urlaubsgluck</div>
+                <div class="auth">
+                    <button class="auth__login">Log In</button>
+                    <button class="auth__signup">Sign Up</button>
+                </div>
+                <div class="caption">
+                    <h1>Share Your <br> Holiday Dreams</h1>
+                    <p>And find the perfect partners to fullfill it</p>
+                    <button class="caption__find">Find your holiday partner</button>
+                </div>
+            </div>
+        </header>        
+        <content>
+            <div class="width__wrapper">
+                <div class="how">
+                    <h4>How Urlaubsgluck works?</h4>
+                    <div class="instruction instruction_first">
+                         <img src="img/slider-1.png">
+                         <img src="img/slider-2.png">
+                         <img src="img/slider-3.png">
+                    </div>
+                    <div class="instruction instruction_second">
+                         <img src="img/slider-2.png">
+                         <img src="img/slider-1.png">
+                         <img src="img/slider-3.png">
+                    </div>
+                    <div class="instruction instruction_third">
+                         <img src="img/slider-3.png">
+                         <img src="img/slider-1.png">
+                         <img src="img/slider-2.png">
+                    </div>
+                </div>
+                <div class="partners">
+                    <h4>Meet a partner for you best holiday</h4>
+                      <script id="templatePartn" type="x-tmpl-mustache">                       
+                            {{#images}}
+                            <div class="partner">  
+                                <img src={{imageurl}}>
+                                <h5>Bradley Hunter</h5>
+                                <p>Based in Chicago. I love playing tennis and loud music.</p>
+                            </div>
+                            {{/images}}
+                            <button class="others">See other partners</button>
+                    </script>                    
+                </div>
+                <div class="activities">
+                    <div class="activity">
+                    <h4>Discover holiday activity activities</h4>
+                    <script id="template" type="x-tmpl-mustache">
+                        <div class="masonry">
+                            <div class="grid">  
+                            {{#images}}
+                                <div class="grid-item"><img src={{imageurl}}>
+                                </div>
+                            {{/images}}
+                        </div>
+                    </script>
+                    </div>
+                    <div class="ideas">
+                        <h4>Discover holiday activity ideas</h4>
+                        <p>Hi! What are yoyr holiday interests?</p>
+                        <input type="text" placeholder="Enter your interest">
+                        <button class="ideas__search">Search partners</button>
+                    </div>
+                </div>
+            </div>
+        </content>
+        <footer>
+            <div class="width__wrapper">
+                <div class="menu"><p>Urlaubsgluck</p></div>
+                <div class="menu">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="menu"><h5>Partners</h5></div>
+                <div class="menu right">Designed by</div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

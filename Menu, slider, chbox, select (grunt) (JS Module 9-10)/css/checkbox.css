@@ -1,0 +1,53 @@
+/*JS*/
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox.png);
+	overflow: hidden;
+}
+.niceChecked {
+	background-position: 0 -17px;
+}
+.niceCheck input{
+	margin-left: -100px;
+    
+  
+}
+.niceCheckDisabled {
+	background-image: url(../img/checkbox.png);
+}
+
+
+
+/*CSS*/
+
+/*
+input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+    
+}
+
+label{
+	cursor: pointer;
+}
+label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox.png);
+	position: relative;
+	top: 3px;
+	margin: 0 15px;
+}
+input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+label:hover:after {
+background-position: 0 -33px;
+}
+*/

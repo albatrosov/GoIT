@@ -1,0 +1,47 @@
+nav {
+    color: #000;
+    background-color: #eee;
+}
+
+body{
+    
+    background: #eee;
+}
+
+.tabs li {
+    
+    display: inline-block;
+}
+
+.tab2, .tab3 {
+    
+    display: none;
+}
+
+.tabs {
+    
+    position: relative;
+}
+
+.contents {
+    
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.wrapper{
+    
+    width: 400px;    
+    margin: 200px auto;
+}
+
+.nav-wrapper{
+    
+    background-color: #673AB7;
+    
+}

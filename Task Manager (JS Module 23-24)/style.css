@@ -1,0 +1,21 @@
+main{
+    
+    width: 200px;
+    margin: auto;
+}
+
+li{
+    
+    float: left;
+    display: block;
+    clear: both;
+}
+
+i{
+    float: left;
+    margin: 0 10px;
+}
+.input{
+    
+    clear: both;
+}

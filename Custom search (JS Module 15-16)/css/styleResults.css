@@ -1,0 +1,40 @@
+.wrapper{
+    
+    width: 600px;
+    margin: 10px 30px;  
+    
+}
+
+#search{
+    
+    width: 400px;
+}
+
+.btn{
+    
+    margin: 0 0 -10px 20px;
+    background-color: #3F51B5;
+}
+
+.btn:hover{
+    
+    background-color: #5C6BC0;
+}
+
+li{
+    
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+p{
+    
+    width: 400px;
+    margin-top: 5px
+}
+
+ul{
+    
+    transition: height 3s ease-in-out;
+    
+}

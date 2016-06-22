@@ -1,0 +1,260 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  
+    background-image: url(img/Background.png);
+    background-size: cover;
+    font-family: helvetica; Arial; sans-serif;
+}
+
+header{     /* позиционирование */
+        
+    height: 36px;     
+    background-color: #074e8c;
+    color: #60b5ed;
+    
+}
+
+.head{
+    
+    float: right;
+    width: 750px;
+}
+
+header a{
+    
+    text-decoration: none;
+}
+
+legend{
+    
+    text-align: center;
+    width: 40px;
+    opacity: .5
+}
+
+fieldset{
+    
+    
+    height: 250px;
+    max-width: 30px;
+    margin-bottom: 30px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+        
+}
+
+.menu1 li{
+    
+    float: left;
+    height: 36px;
+    margin-right: 15px;
+    list-style: none;
+        
+}
+
+
+.menu1 a{
+    
+    display: block;
+    padding: 9px;
+    color: #60b5ed;
+}
+
+.menu1 a:hover{   
+    
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.menu2 div{
+        
+    float: left;
+    padding-right: 16px;
+    color: #fff;
+}
+
+.offers{
+    
+    border-left: 1px solid #56a2dc;
+    padding-left: 16px;
+}
+
+.offers a:hover{    /*подчёркивание залезает на пробел после флага*/ 
+    
+ text-decoration: underline;   
+}
+
+.menu2 a{     
+    
+    display: inline-block;
+    height: 18px; 
+    padding: 9px 5px;
+    color: #fff;
+        
+}
+
+.menu2 a:hover{
+    
+    background: linear-gradient(to top, #4299d2, #51b1dc); 
+}
+
+.signButton:hover{
+    
+    background: linear-gradient(to top, #4299d2, #51b1dc);
+    
+}
+
+.signButton a:hover{
+    
+    text-decoration: underline;
+}
+
+.regBox{
+    
+    margin: auto;
+    width: 560px;
+    height: 610px;
+    margin-top: 10%;
+    color: #fff;
+    
+    
+}
+
+.formHead{
+    
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+}
+
+.formHead p{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.form{
+    
+    height: 545px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.facebook{
+    
+    height: 100px;
+}
+
+.facebook img{
+    
+    display: block;   
+    padding-top: 35px;
+    width: 305px;
+    margin: 0 135px;
+}
+
+.data input{
+    
+    display: block;
+    height: 30px;
+    width: 275px;
+    margin: 15px 0;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 15px;
+    border: 1px;
+    box-shadow: 0px 1px 2px #484948;
+    text-shadow: 0px 0px 3px;
+    
+}
+
+.data{
+    
+    padding: 0 135px
+}
+
+.data input::-webkit-input-placeholder{
+    
+    color: #b2b2b2;
+}
+
+.data input:focus::-webkit-input-placeholder{
+    
+    color: #fff;
+}
+
+.data input:focus{     /*белая рамка не как на исходнике*/
+    
+    background-color: #1b5288;
+    box-shadow: 0 0 5px 2px #689bcd;
+    
+}
+
+.chekbox{
+    
+    height: 30px;
+    width: 545px;
+    margin: 0 135px;
+    font-size: 16px;
+    opacity: .7;
+}
+
+.submit input{
+    
+    display: block;
+    height: 35px;
+    width: 140px;
+    margin: 15px 200px;
+    padding: 10px;
+    background: linear-gradient(to top, #3686ca, #6bb8e7);
+    border: 1px;
+    box-shadow: 0px 0px 3px #3686ca;
+    border-radius: 3px;
+    color: #fff;    
+}
+
+
+.submit input:active{
+    
+    background: linear-gradient(to top, #428cb9, #6bb8e7);
+    padding-bottom: 5px;
+}
+
+.policy{
+    
+    display: block;
+    text-align: center;
+    margin: 35px 0px 0px 10px;
+    font-size: 11px;
+    opacity: .7;
+}
+
+.policy a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.policy a:hover{
+    
+    text-decoration: underline;
+}

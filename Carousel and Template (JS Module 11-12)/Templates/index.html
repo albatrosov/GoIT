@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Module 11-12 Templates</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script type="text/html" class="profile">
+       
+<div class="box">
+     
+     <div class="content">
+      
+    <div class="header">   
+     
+      <h3><%= headText %></h3>
+      
+      <img class="picSize" src="img/avatar.jpg">
+      
+      <p><%= work %></p>
+      
+      </div>
+      
+      <div class="text">
+      
+      <p><%= causesHead %></p>
+      
+      <ul>
+         <% for (i = 0; i < 4; i++) { %>
+          <li><%= causes[i] %></li>
+        <%  }; %>
+      </ul>
+      
+      </div>
+      
+      <div class="text">
+      
+      <p><%= phoneText %></p>
+      <p><%= phone %></p>
+      
+      <p><%= social %></p>
+      <p><a href="#"><%= vk %></a></p>
+      <p><a href="#"><%= twitter %></a></p>
+      
+      </div>
+      
+      
+      
+    </div>
+      
+</div>
+       
+    </script>
+</body>
+</html>

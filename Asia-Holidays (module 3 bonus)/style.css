@@ -1,0 +1,89 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #000;
+    
+}
+
+
+a{
+    
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+footer{
+    
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+.box{
+    
+    width: 970px;
+    height: 900px;
+    margin: 0 auto;
+    background: url(img/background.png);
+    background-size: contain;
+}
+
+.margins{
+    
+    margin: 10px 56px;
+}
+
+/* HEADER */
+
+header{
+    
+    display: inline-block clear: both;
+    height: 160px;    
+        
+}
+
+.headLogo{
+     
+    float: left;
+                            
+}
+
+/* CONTENT */
+
+.contacts{
+    
+    margin: 80px 20px 0;
+    float: right;
+    color: white;
+    
+}
+
+.countryBlock{
+    
+    display: inline-block;
+    margin: 0 5px 30px;
+    text-align: center;
+        
+}
+
+.countryPhoto{
+    
+      border: 5px ridge #aaa;
+    
+}
+
+

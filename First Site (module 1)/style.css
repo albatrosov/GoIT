@@ -1,0 +1,45 @@
+body {
+
+	background-color: #eeeeee
+}
+
+ul{
+
+	margin-top: 30px;
+	margin-left: -10px;
+}
+
+li{
+	margin-top: 10px;
+}
+
+.box {
+
+	width: 512px;
+	background: white;
+	border: 1px solid #cecece;
+	margin: auto;
+	box-shadow: 0 0 3px #cecece;
+}
+
+.header{
+
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+.text{
+	
+	border-bottom: 1px solid #000;
+
+}
+
+.content{
+
+	padding: 25px 10% 35px;
+}
+
+.picSize{
+
+	height: 136px;
+}

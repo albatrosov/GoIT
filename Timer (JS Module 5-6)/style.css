@@ -1,0 +1,26 @@
+
+
+h4 {
+    
+    display: inline-block;
+    
+}
+
+h2 {
+    
+    display: inline-block;
+   
+}
+
+.wrapper {
+    
+    width: 400px;
+    margin: auto;
+}
+
+.timer {
+    
+    width: 250px;
+    margin: auto;
+}
+

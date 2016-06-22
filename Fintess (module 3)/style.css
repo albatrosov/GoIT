@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    
+    background-color: #f9f9f9;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic,cyrillic-ext);
+
+.box{
+    
+    width: 1060px;
+    margin: auto;
+    min-height: 600px; /*If we have not enough content, white box anyway will be under side menu and footer  */
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    box-shadow: 1px 3px solid black;
+     
+}
+
+.margin{    /*inside box*/
+    
+    margin: 5% 5%;
+}
+
+/* TOP MENU */
+
+.menu{
+    
+    height: 40px;
+    margin: 30px 0;
+    background: linear-gradient(to top, #454444, #5e5e5e);
+    color: #fff; 
+    text-shadow: 1px 1px 3px #3b3b3b;
+}
+
+.menu ul li{
+    
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+            
+}
+
+.menu ul li a{
+    
+    display: block;
+    padding: 11px;
+    color: white;
+    text-decoration: none;
+           
+}
+
+.menu ul li a:hover{
+    
+    color: #fff;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    background-color: #3b3b3b;
+}
+
+
+/* SIDE MENU */
+
+.sideMenu{
+    
+    float: left; 
+    color: #7a7878;
+}
+
+.sideMenu ul li{
+    
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    
+}
+
+.sideMenu ul li a{
+    
+    display: block;
+    padding: 11px;
+    color: #7a7878;
+    text-decoration: none;
+    
+}
+
+.sideMenu ul li a:hover{
+    
+    padding-left: 25px;
+    background-color: #f9f9f9;
+    color: #2c2c2c;   
+    
+}
+
+/* ARTICLE */
+
+.content{
+    
+    float: right;
+    width: 650px;
+    margin-bottom: 60px;
+    
+}
+
+.img{
+    
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    
+}
+
+.text{
+    
+    margin: 20px;
+    color: #2c2c2c;    
+    
+}
+
+/* FOOTER */
+
+footer{
+    
+    clear: both;
+    height: 40px;
+    margin: 30px 0;
+    background: #e1e1e1;
+    color: #5c5c5c; 
+    
+}
+
+footer ul li{
+    
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+       
+}
+
+footer ul li a{
+    
+    padding: 11px;
+    display: block;
+    color: #5c5c5c;
+    text-decoration: none;
+        
+}
+
+footer ul:after{
+    
+    margin-left: 160px;
+    content: "2014 © All Rights Reserved";
+}
+
+footer ul li a:hover{
+    
+    text-decoration: underline;
+}
+

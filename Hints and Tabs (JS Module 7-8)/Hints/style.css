@@ -1,0 +1,45 @@
+.wrapper {
+    
+    width: 900px;
+    margin: 100px auto
+}
+
+.formWrapper {
+    
+    width: 300px;
+    float: left;
+  
+}
+
+.cardWrapper {
+    
+    width: 500px;
+    float: left;
+    position: relative;
+    
+}
+
+.row {
+    
+    width: 500px;
+}
+
+.cardWrapper .row {
+    
+    position: absolute;
+    display: none;
+    margin-left: 50px;
+   
+}
+
+.button{
+    
+    clear: both;
+   
+}
+
+i {
+    
+    margin-left: 10px;
+    font-size: 40px;
+}

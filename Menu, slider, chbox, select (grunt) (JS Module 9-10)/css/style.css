@@ -1,0 +1,66 @@
+.subMenu {
+    
+    display: none;
+    margin: 15px 0px 0px -15px;
+    width: 50px;
+    position: absolute;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #4DB6AC;
+    width: 60px
+}
+
+.subMenu2 {
+    
+    display: none;
+    margin: -33px 0 0 91px;
+    position: absolute;
+    background-color: #80CBC4;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   
+}
+
+.subMenu2 li{
+    
+    margin-left: -35px;
+    list-style: none;
+    width: 110px;
+    padding: 15px;
+}
+
+.mainMenu>li{
+    
+    display: inline-block;
+    padding: 17px;
+    margin-left: -10px
+}
+
+
+.mainMenu a{   
+    
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainMenu {
+    
+    background-color: #009688;
+    height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 500px;
+}
+
+.subMenu>li{
+    
+    padding: 15px 0;
+    display: block;
+    position: relative;
+    margin-left: -30px;
+    width: 90px;
+}
+
+.menu {
+    
+    position: relative;
+    z-index: 1;
+}

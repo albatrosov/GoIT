@@ -1,0 +1,674 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    
+    width: 910px;
+    margin: 0 auto;
+    margin-top: 14px;
+    height: 1150px;
+}
+
+header{
+    
+    height: 25px;
+    padding: 5px;
+}
+
+.cell{
+    
+    float: left;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    background: linear-gradient(to top, #1f6786, #2c4d6d);
+    border-radius: 88px;
+    transform: rotate(12deg);
+    
+}
+
+.cell i{
+    
+    font-size: 19px;
+}
+
+.phones{
+    
+    float: left;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    font-size: 19px;
+    color: #5e696d;
+    
+    
+}
+
+
+
+.auth{
+    
+    float: left;
+    height: 25px;
+    width: 495px;
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    color: #fff;
+    border-radius: 5px;
+    margin: -5px 9px;
+    box-shadow: 2px 2px 3px grey;
+    
+}
+
+.reg li{
+    
+     padding: 0 2px;
+}
+
+.menuLine a{
+    
+    
+  padding: 1px 4px 6px;
+    
+    
+}
+
+
+
+.reg a{
+    
+    display: block;
+    font-size: 10.91px;
+    color: #fff;
+    font-family: Lucida Sans Unicode, sans-serif;
+    margin: 3px 1px 0px;
+    height: 7px
+}
+
+.forgot{    
+    
+    margin-left: 11px;
+    
+    
+}
+.forgot a{
+    
+    display: block;
+    color: #bfbfbf;
+    font-size: 12px;
+    font-family: Lucida Sans Unicode, sans-serif;
+    margin: 3px 0px 0px 0px;
+}
+
+.login{
+    
+    margin: 3px 0px 3px;
+    float: left;
+   
+   
+}
+
+.login p{
+    
+    float: left;
+    margin: 1px 4px 0px 8px;
+    
+}
+
+.login input{
+    
+    display: block;
+    float: left;
+    width: 110px;
+    height: 17px;
+    margin-right: 7px;
+    font-size: 11px;
+    border: 1px;
+    box-shadow: 1px 1px 3px 0px grey inset;
+}
+
+.login input::-webkit-input-placeholder{
+    
+    padding-left: 5px;
+}
+
+
+.login input[type="submit"]{
+    
+    display: block;
+    width: 25px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 11px;
+    border: 1px;
+    margin-top: 1px;
+     padding-right: 30px;
+      border-right: 1px solid #fff;
+    box-shadow: 0px 0px
+    
+    
+    
+}
+
+.reg{
+    
+    float: left;
+    color: #fff;
+    margin-left: -10px;
+}
+
+
+.reg li{
+    
+    display: block;
+    float: left;
+}
+
+.reg li a{
+    
+    text-decoration: none;
+}
+
+.icons{
+    
+    width: 71px;
+    margin: -2px 8px;
+    height: 18px;
+    float: left;
+    box-shadow: 0px 0px 2px grey;
+    border: 1px;
+    border-radius: 7px;
+    
+}
+
+.icons p{
+    
+    display: inline;
+    font-size: 13px;
+    margin-left: 9px;
+    margin-right: -5px;
+    
+}
+
+.icons a{
+    
+    color: #76848a;
+}
+
+.menuBCG{
+    
+    height: 35px;
+    background: linear-gradient(to top, #000, #2c345a);
+    border-radius: 5px;
+    margin-top: 1px;
+    font-family: Lucida Sans Unicode, sans-serif;
+    font-size: 14px;
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 6px 1px 0px 0;
+    
+    
+}
+
+.menu ul{
+    width: 550px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.menu a{
+    
+    display: block;    
+    color: #b1bcc0;
+    padding: 3px 15px;
+    text-decoration: none;    
+    text-transform: uppercase;
+    
+}
+
+.menu a:hover{
+    
+    background: linear-gradient(to top, #0d3458, #25617b);
+    border-radius: 80px;
+}
+
+.menu p{
+    
+    display: inline-block;
+    color: #fff;
+    
+}
+
+
+
+.cart li{
+
+    display: inline-block;
+    
+    
+}
+.cart p{
+
+    display: inline-block;
+    
+}
+
+.cart a{
+    
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 13px;    
+    text-transform: none;
+    color: #7f878b;
+    text-decoration: none;
+}
+
+.cart a:hover{
+    
+    text-decoration: underline;
+}
+
+.cart li a i{
+    
+    font-size: 20px;
+    margin: 6px 8px 0; 
+    color: #7f878b;
+}
+
+.count{
+    
+    
+    color: #0d5a8f;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+
+
+.cart{
+    
+   float: right;
+    
+}
+
+.filters{
+    
+     margin: 10px 5px;
+}
+
+.searchCar{
+    
+    float: left;
+    width: 412px;
+    height: 135px;
+    border: 1px solid black;
+}
+
+.searchTire{
+    
+    float: left;
+    height: 135px;
+    width: 190px;
+    border: 1px solid black;
+}
+
+.searchDisc{
+    
+    float: left;
+    width: 265px;
+    height: 135px;
+    border: 1px solid;
+}
+
+.products{
+    
+    float: left;
+    width: 910px;
+    height: 500px;
+}
+
+
+.catalog{
+    
+    float: left;
+    width: 180px;
+   
+}
+
+.catalog a:hover{
+    
+    text-decoration: underline;
+    color: #0c3256;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.listName{
+    
+    height: 25px;
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+    margin: 17px 0;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #114165;
+    box-shadow: 0px 2px 4px 0px rgba(100, 100, 100, 0.5);
+    list-style: none;
+    
+}
+
+.listName2{
+    
+    height: 25px;
+
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+    margin: 17px 0;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #114165;
+    box-shadow: 0px 2px 4px 0px rgba(100, 100, 100, 0.5);
+    list-style: none;
+    
+}
+
+.circle{
+    
+    background-color: #114165;
+    border-radius: 100%;
+    width: 20px;
+    height: 17px;
+    text-align: center;
+    
+}
+
+.listName i{
+    
+    font-size: 14px;
+    margin: 2px;
+    padding-top: 3px
+}
+
+
+.margin{          /* не представляю как по-другому это сделать*/
+    
+    margin-top: 16px;
+}
+
+/*
+
+.catalog ul li p{
+    
+   
+    
+    border: 1px solid
+   
+        
+}
+*/
+
+.category p{
+    
+    display: block;
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+    width: 149px
+    
+}
+
+.catalog ul li ul li{
+    
+    margin-left: 46px;
+    list-style: none;
+    list-style: circle;
+    text-transform: none;
+    margin-top: 4px;
+        
+}
+
+.catalog ul li ul a{
+    
+    font-size: 13px;
+    color: #465961;
+    text-decoration: none;
+    
+}
+
+.catalog ul li i{
+    
+    font-size: 23px;
+    margin: -1px 5px -7px;
+}
+
+/*
+
+.catalog ul li{
+    
+    
+    list-style-image: url(img/Shape.png);
+    margin-left: 35px;
+    
+}
+*/
+
+
+/*
+.searchResult{
+    
+    float: left;
+    height: 500px;
+    width: 525px;
+    
+}
+*/
+
+.searchResult{
+    
+    float: left;
+    height: 625px;
+    width: 525px;
+    margin: 18px 10px;
+    background: linear-gradient(to top, #93a7b0, #e5e7e8);
+
+}
+
+.searchResult:after{
+    content: ".";
+    clear: both;
+
+}
+
+.tire{
+    display: inline-block;
+    width: 155px;
+    margin: 8px;
+    text-align: center;
+    
+}
+
+.tire img{
+    
+    width: 
+}
+
+.tireName{
+    
+    font-family: Lucida Sans Unicode, sans-serif;
+    font-size: 15px;
+    color: #206988;
+}
+
+.tireClass{
+    
+     font-family: Lucida Sans Unicode, sans-serif;
+    font-size: 13px;
+    color: #1f2528;
+}
+
+.tirePrice{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    font-weight: bold;
+    
+}
+
+.brand{
+    
+    float: left;
+    width: 180px;
+    
+}
+
+.brand:after{
+
+    content: " ";
+    clear: both;
+}
+
+.listName2{
+    
+    height: 25px;
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #114165;
+    box-shadow: 0px 2px 4px 0px rgba(100, 100, 100, 0.5);
+    list-style: none;
+    
+}
+
+.listName2 i{
+    
+    font-size: 14px;
+    margin: 2px;
+    padding-top: 3px
+}
+
+
+.margin{          /* не представляю как по-другому это сделать*/
+    
+    margin-top: 16px;
+}
+
+
+.category p{
+    
+    display: block;
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+    width: 149px
+    
+}
+
+.brand ul li{
+    
+    margin-left: 15px;
+}
+
+.brand ul li ul li{
+    
+    margin-left: 10px;
+    list-style: none;
+    text-transform: none;
+    margin-top: 6px;
+        
+}
+
+.brand ul li ul input{
+    
+    font-size: 13px;
+    color: #465961;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+
+.brand ul li i{
+    
+    font-size: 23px;
+    margin: -1px 5px -7px;
+}
+
+input[type="checkbox"]{
+    
+    box-shadow: 1px 1px 3px #1c4360 inset;
+    margin-right: 1px
+}
+
+.submit{
+    
+    margin: 5px 5px;
+    background: linear-gradient(to top, #0c3357, #1f6787);
+    color: #dbe1e3;
+    border: 1px solid;
+    height: 25px;
+    width: 80px;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+
+
+.companies{
+    
+    clear: both;
+    width: 670px;
+    margin: 0 auto;
+}
+
+footer li{
+    
+    display: inline-block;
+    
+}
+
+footer{
+   
+    text-align: center;
+    width: 910px;
+    height: 95px;
+    background-color: #213a4d;
+    margin: 50px auto 0px;
+    
+}
+
+footer a{
+    
+    color: #bec6c9;
+    text-decoration: none;
+    font-size: 13px
+}
+
+
+
+footer li{
+    
+    margin-top: 10px;
+    padding: 0 10px;
+    border-right: 1px solid white;
+    height: 15px;
+    
+}
+
+footer a:hover{
+    
+    color: #52abcb;
+}
+
+footer p{
+    
+    margin-top: 10px;
+    font-size: 10px;
+    color: #7f4740;
+}

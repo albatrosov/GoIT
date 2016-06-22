@@ -1,0 +1,79 @@
+* {
+    
+    padding: 0;
+    
+    margin: 0;
+}
+
+.wrapper{
+    
+    width: 500px;
+    
+    margin: auto;
+}
+
+li{
+    
+    padding: 5px;
+}
+
+ul{
+    
+    padding: 5px;
+}
+
+
+.resultWindowYes, .resultWindowNo{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+    
+}
+
+.btn{
+    
+    z-index: 0
+}
+
+.row{
+    
+    width: 500px;
+    margin: 100px auto;
+    display: none;   
+}
+
+.card{
+    
+    width: 400px;
+    margin: auto
+}
+
+.card-image{
+    
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+}
+
+.card-content{
+    
+    font-size: 30px;
+    text-align: center
+}
+
+.card-action a{
+    
+    font-size: 20px;
+    display: block;
+    width: 240px;
+    margin: auto;
+       
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Module 23-24</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="mustache.js"></script>
+    <script src="hammer.min.js"></script>
+    <script src="jquery.hammer.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main> 
+      <div class="tasks">
+        <script id="template__list" type="x-tmpl-mustache">   
+         <ul class="list">
+           {{#tasks}}
+           <li class="list__item">{{.}}</li>
+           {{/tasks}}  
+        </ul>
+       </script>
+       </div>
+      <div class="input">      
+       <script id="template__item" type="x-tmpl-mustache">
+       <div class="item">           
+           <input type="text" class="item__new">
+           <button class="item__add waves-effect waves-light btn">Add</button>
+       </div>
+       </script>
+       </div>
+       
+   </main>    
+</body>
+</html>

@@ -1,0 +1,196 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-image: url(img/background.png); /* как подвинуть картинку вверх */
+}
+
+h3{
+    
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px #424c43;
+    color: #424c43;
+}
+
+footer{
+    
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.box{      
+    
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 15px;
+}
+
+.logo{
+    
+    float: left;
+    width: 50%;
+}
+
+.contacts{
+    
+    float: right;
+    
+}
+
+.countryCircles{
+    
+    float: right;
+    margin-top: 30px;
+        
+}
+
+.countryCircles ul li{
+    
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.countryCircles a{
+    
+    color: #4b9db4;
+    text-decoration: underline;
+}
+
+header{
+    
+    padding: 10px 20px 0;
+    font-size: 10px;               /* если маленький шрифт, круги залезают наверх */
+    font-family: Tahoma;
+    color: #128aa7;
+    background-color: #fff;
+    
+   
+}
+
+.clearfix:after{
+    
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.menuIMG{              /* Непонятный отступ*/
+    
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+.menu:after{
+    
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.menu{
+    
+    margin-top: -4px;
+    height: 25px;
+    background-color: #333333;
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 1px 4px;
+            
+}
+
+.menu li{
+    
+    position: relative;
+    float: left;
+    padding: 5px 30px;
+    list-style: none;  
+    display: block;
+            
+}
+
+.menu li:hover{
+    
+    text-decoration: underline;
+}
+
+.menu a{
+    
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.menu ul li ul{
+    
+    position: absolute;
+    left: -99999px;
+    background-color: #333333;
+    
+}
+
+.menu ul li ul a{
+    
+    white-space: nowrap;
+    display: block;
+    color: #fff;
+    
+}
+
+.menu ul li ul a:hover{
+    
+    text-decoration: underline;
+}
+
+.menu ul li:hover ul{
+    
+    left: 0;
+    padding-top: 5px;
+}
+
+.fond{
+    
+    margin-top: -2px;
+    width: 1000px;
+    background-image: url(img/clmn.png);
+    float: left;
+}
+
+.information{
+    
+    width: 210px;
+    float: left;
+}
+
+.article{
+    
+    width: 580px;
+    float: left;
+}
+
+.article p{
+    
+    padding: 15px
+}
+
+.news{
+    
+    width: 210px;
+    float: right;                /* на сайте было left, но оно замещало центр без кнтента */
+}
+
+.fond ul{
+    
+    list-style: none;
+    padding: 10px 15px;
+}

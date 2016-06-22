@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Module 9-10</title>
+   
+<!--
+
+    <script src="js/jquery.js"></script>    
+    <script src="js/jquery.color.js"></script>
+    <script src="js/colorCall.js"></script>  
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/jquery.selectbox-0.2.min.js"></script>
+    <script src="js/carouselCall.js"></script>
+    <script src="js/checkbox.js"></script>
+    <script src="js/script.js"></script>
+   
+-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <script src="js/production.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<!--
+    <link rel="stylesheet" href="css/jquery.selectbox.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/style.css">
+-->
+
+    <link rel="stylesheet" href="css/production.min.css">
+</head>
+
+<body>
+
+    <div class="menu">
+        <ul class="mainMenu">
+            <li><a href="#">Link 1</a>
+                <ul class="subMenu">
+                    <li><a href="#">subLink 1</a>
+                        <ul class="subMenu2">
+                            <li><a href="#">subSubLink 1</a></li>
+                            <li><a href="#">subSubLink 2</a></li>
+                            <li><a href="#">subSubLink 3</a></li>
+                            <li><a href="#">subSubLink 4</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">subLink 2</a>
+                        <ul class="subMenu2">
+                            <li><a href="#">subSubLink 5</a></li>
+                            <li><a href="#">subSubLink 6</a></li>
+                            <li><a href="#">subSubLink 7</a></li>
+                            <li><a href="#">subSubLink 8</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">subLink 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Link 2</a>
+                <ul class="subMenu">
+                    <li><a href="#">subLink 4</a></li>
+                    <li><a href="#">subLink 5</a></li>
+                    <li><a href="#">subLink 6</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Link 3</a>
+                <ul class="subMenu">
+                    <li><a href="#">subLink 7</a>
+                        <ul class="subMenu2">
+                            <li><a href="#">subSubLink 13</a></li>
+                            <li><a href="#">subSubLink 14</a></li>
+                            <li><a href="#">subSubLink 15</a></li>
+                            <li><a href="#">subSubLink 16</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">subLink 8</a></li>
+                    <li><a href="#">subLink 9</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Link 4</a>
+                <ul class="subMenu">
+                    <li><a href="#">subLink 10</a>
+                        <ul class="subMenu2">
+                            <li><a href="#">subSubLink 9</a></li>
+                            <li><a href="#">subSubLink 10</a></li>
+                            <li><a href="#">subSubLink 11</a></li>
+                            <li><a href="#">subSubLink 12</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">subLink 11</a>
+                        <ul class="subMenu2">
+                            <li><a href="#">subSubLink 17</a></li>
+                            <li><a href="#">subSubLink 18</a></li>
+                            <li><a href="#">subSubLink 19</a></li>
+                            <li><a href="#">subSubLink 20</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">subLink 12</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Link 5</a>
+                <ul class="subMenu">
+                    <li><a href="#">subLink 13</a></li>
+                    <li><a href="#">subLink 14</a></li>
+                    <li><a href="#">subLink 15</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    
+    <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/4.jpg" width="600" height="400" alt=""></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination">
+                    
+                </p>
+            </div>
+
+
+
+   
+   <h3>Checkboxes JS</h3>
+   
+<div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+<div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+<div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+
+
+    
+    <h3>Checkboxes CSS</h3>
+    
+    <input class="css" type="checkbox" id="test-check1">
+    <label class="css" for="test-check1">Чекбокс 1:</label>
+
+    
+    
+    <h3>Selects</h3>
+
+    <select name="country_id" id="country_id" tabindex="1">
+        <option>So much countries</option>
+        <optgroup label="wow North America">
+            <option value="1">USA</option>
+            <option value="9">Canada</option>
+        </optgroup>
+        <optgroup label="such Europe">
+            <option value="2">France</option>
+            <option value="3">Spain</option>
+            <option value="6">Bulgaria</option>
+            <option value="7" disabled="disabled">Greece</option>
+            <option value="8">Italy</option>
+        </optgroup>
+        <optgroup label="vary Asia" disabled="disabled">
+            <option value="5">Japan</option>
+            <option value="11">China</option>
+        </optgroup>
+        <optgroup label="oh South">
+            <option value="4">Brazil</option>
+            <option value="10">South Africa</option>
+        </optgroup>
+    </select>
+</body>
+</html>

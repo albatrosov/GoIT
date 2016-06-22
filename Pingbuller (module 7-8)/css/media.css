@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+    
+    .menu{
+        
+        width: 113%;
+    }
+    
+    .aboutP{
+        
+        width: 16%;
+    }
+    
+    .h3{
+        
+        font-size: 24px
+    }
+    
+    .aboutText{
+        
+        height: 112px;
+        overflow: hidden;
+    }
+    
+    .start{
+        
+        width: 32%;
+    }
+    
+    .start p{
+        
+        height: 180px;
+        overflow: hidden;        
+    } 
+       
+    .start:after{
+        
+        display: none;
+    }
+    
+    .recent .category{
+        
+        display: none;
+    }
+    
+    .partners{
+        
+        width: 768px;
+        margin: auto;
+    }
+    
+    .partners img{
+        
+        margin-right: 5%;
+    }
+    
+    .news div{
+        
+        width: 23%;
+        height: 205px;
+        overflow: hidden;
+    }   
+}
+
+@media (max-width: 480px){
+    
+    .logo{
+        
+        width: 200px;
+        margin-left: 150px;    
+        float: left;
+    }
+    
+    .menu{
+        
+        width: 245px;
+        float: left;
+        clear: both;
+        margin: 0 130px;
+        height: 230px
+    }
+    
+    .menu li{
+        
+        float: none;
+        text-align: center;
+        width: 235px;
+        padding: 5px;
+        display: none;
+        background-color: rgba(51, 0, 51, .7);
+    }
+    
+    .menu li:hover{
+        
+        background-color: rgba(51, 0, 51, .9);
+        border-bottom: 1px solid #edbfff;
+    }
+    
+    .menu .firstLink{
+        
+        display: block;
+    }
+    
+    .menu .firstLink:hover > .another{
+        
+        display: block;
+    }
+    
+    .aboutP{
+        
+        width: 410px;
+        height: 120px;
+        margin-top: 10px;
+        float: left;
+    }
+        
+    .aboutP a{
+        
+        margin-left: -200px;
+        margin-top: -50px;        
+    }
+    
+    .purple{
+        
+        position: absolute;
+        height: 450px;
+    }
+    
+    .updates{
+        
+        height: 100px
+    }
+    
+    .partners img{
+        
+        margin-top: -200px;
+    }
+}
