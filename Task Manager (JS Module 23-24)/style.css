@@ -4,6 +4,24 @@ main{
     margin: auto;
 }
 
+.tasks input{
+    
+    float: left;
+    display: none;
+    width: 100px;
+    clear: both;
+}
+
+.tasks button{
+    
+    float: left;
+    margin: 23px;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    display: none;
+}
+
 li{
     
     float: left;

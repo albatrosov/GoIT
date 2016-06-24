@@ -86,7 +86,7 @@ content {
         border: none; }
   content .partners {
     text-align: center;
-    height: 350px;
+    height: 370px;
     margin-bottom: 100px; }
     content .partners h4 {
       margin-bottom: 35px; }
@@ -94,6 +94,13 @@ content {
       width: 240px;
       margin-bottom: 50px;
       float: left; }
+      content .partners .partner h5 {
+        margin: 15px 0; }
+      content .partners .partner p {
+        margin: auto;
+        color: #666666;
+        font: 300 14px Roboto;
+        width: 85%; }
     content .partners .others {
       color: #ff4e50;
       width: 192px;

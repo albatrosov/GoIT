@@ -1,15 +1,21 @@
 @media (max-width: 768px) {
     
-    .menu{
+    .box{
         
-        width: 113%;
+        width: 100%;
     }
     
+    .menu{
+        
+        width: 100%;
+        margin-right: 30px;
+    }
+            
     .aboutP{
         
         width: 16%;
     }
-    
+        
     .h3{
         
         font-size: 24px
@@ -63,10 +69,16 @@
 
 @media (max-width: 480px){
     
+    .box{
+        
+        height: 2280px;
+        overflow: hidden;
+    }
+    
     .logo{
         
-        width: 200px;
-        margin-left: 150px;    
+        width: 100%;
+        margin-left: 150px;
         float: left;
     }
     
@@ -76,9 +88,24 @@
         float: left;
         clear: both;
         margin: 0 130px;
-        height: 230px
+        height: 230px;
     }
     
+    .mobileMenu{
+        
+        display: block;
+        width: 235px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgba(51, 0, 51, .7);
+        display: block;
+    }
+    
+    .menu .mobileMenu{
+        
+        margin: 0;
+    }
+        
     .menu li{
         
         float: none;
@@ -95,14 +122,15 @@
         border-bottom: 1px solid #edbfff;
     }
     
-    .menu .firstLink{
+    
+    .menu:hover > ul li{
         
         display: block;
     }
     
-    .menu .firstLink:hover > .another{
+    .menu:hover > ul li:first-child{
         
-        display: block;
+        display: none;
     }
     
     .aboutP{
@@ -127,11 +155,63 @@
     
     .updates{
         
-        height: 100px
+        height: 100px;
+    }
+    
+    .recent{
+        
+        opacity: 0;
     }
     
     .partners img{
         
         margin-top: -200px;
+    }
+    
+    .news div{
+        
+        width: 550px;
+        height: 118px;
+        margin-top: 10px;
+        float: left;
+    }
+    
+    .news p{
+        
+        width: 450px;
+    }
+    
+    .footMenu{
+        
+        margin-left: -10px;
+        width: 500px;
+        margin-top: -50px;
+    }
+    
+    .footer .footMenu li{
+        
+        display: block;
+        height: 200px;
+        background: none;
+        float: left;
+        width: 65px;
+        font-size: 15px;
+        height: 30px
+    }
+    
+    .footer .footMenu li a{
+        
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    .footer .footMenu:hover ul li:first-child{
+        
+        display: block;
+    }
+    
+    .footMenu li:hover{
+        
+        border-bottom: none;
     }
 }

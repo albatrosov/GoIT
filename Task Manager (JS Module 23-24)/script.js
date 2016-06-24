@@ -21,11 +21,9 @@ function Model() {
             return;
         };
         
-        // ТУТ ЗАКОНЧИЛ СДЕЛАТЬ ПУШ В МАССИВ ПРАВИЛЬНО
         console.log(self.data.tasks)
         
         self.data.tasks.push(item);
-        
         
         return self.data;
     };
@@ -51,7 +49,6 @@ function View(model) {
     
     var self = this;
     
-    
     var structure = $('#template__item').html();
 
     function renderStructure() {
@@ -64,7 +61,7 @@ function View(model) {
           
           input: $('.item__new'),
           button: $('.item__add'),          
-          item: $('.tasks')
+          item: $('.list__item')
       }
       
     self.renderList(model.data)
@@ -74,15 +71,11 @@ function View(model) {
 
     var taskList = $('#template__list').html()        
         
-    self.renderList = function(data) {      
-        
-//        var data = model.data; 
+    self.renderList = function(data) {    
        
         let rendered = Mustache.render(taskList, data);
         
         $('.tasks').html(rendered);
-        
-        $('.list__item').after('<i class="fa fa-minus-square" aria-hidden="true"></i>')
 
         };   
     
@@ -97,6 +90,7 @@ function Controller(model, view){
     
     view.elems.button.on('click', addTask);
     view.elems.item.on('click', 'li', removeTask);
+    $('.tasks').on('click', 'i', removeTask)
      
     
     function addTask() {
@@ -110,8 +104,8 @@ function Controller(model, view){
     function removeTask() {
         
         
-        var taskValue = $(this).text();
-        console.log(taskValue)
+        var taskValue = $(this).attr('data');
+        console.log('taskValue = ' + taskValue)
         
         model.removeArrTask(taskValue);
         

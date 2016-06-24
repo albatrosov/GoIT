@@ -28,11 +28,6 @@ button{
     border: 2px solid #ff4e50;
 }
 
-main{
-    
-    
-}
-
 header{
     
     height: 700px;
@@ -152,7 +147,7 @@ content{
     .partners{
         
         text-align: center;        
-        height: 350px;
+        height: 370px;
         margin-bottom: 100px;
         
         h4{
@@ -165,7 +160,19 @@ content{
             width: $width / 4;
             margin-bottom: 50px;
             float: left;
-          
+            
+            h5{
+                
+                margin: 15px 0;
+            }
+            
+            p{
+                
+                margin: auto;
+                color: #666666;
+                font: 300 14px Roboto;
+                width: 85%;
+            }
         }
         
         .others{

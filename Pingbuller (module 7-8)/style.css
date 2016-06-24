@@ -123,6 +123,7 @@ header{
     margin-top: -80px;
 }
 
+
 .logo{
     
     float: left;
@@ -148,10 +149,8 @@ header{
     
     float: right;
     margin-top: 40px;
-    width: 80%;
     height: 150px;
     text-transform: uppercase;
-    margin-right: -100px;
 
 }
 
@@ -166,11 +165,14 @@ header{
     
     color: #fff;
     text-decoration: none;
-    margin: 0 25px;
     font-family: gothic, sans-serif;
     font-size: 24px;
+    margin-left: 30px;
+}
+
+.mobileMenu{
     
-       
+    display: none;
 }
 
 .menu a:hover{

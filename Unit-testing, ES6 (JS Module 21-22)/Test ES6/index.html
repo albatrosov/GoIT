@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Module 13-14</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/test.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/babel/6.0.16/browser.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+     
+       <script type="text/html" id="template">
+        
+    <div class="resultWindowYes">
+        <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/yes.jpg">              
+            </div>
+            <div class="card-content">
+              <p>Yep, всё верно</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Пройти заново</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+      <div class="resultWindowNo">
+        <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/no.jpg">              
+            </div>
+            <div class="card-content">
+              <p>Сорян, что-то не верно</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Пройти заново</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+         
+         <h4>Тест по {{testName}}</h4>
+  
+        </script>
+       
+    </div>
+</body>
+</html>

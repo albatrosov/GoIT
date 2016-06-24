@@ -5,7 +5,7 @@ $(function() {
       
     function getPartn() {
         
-         var img = $.getJSON('http://api.pixplorer.co.uk/image?word=girls&amount=4&size=tb', function(data){ 
+         var img = $.getJSON('http://api.pixplorer.co.uk/image?word=persons&amount=4&size=large', function(data){ 
              
              
              function renderPartners() {

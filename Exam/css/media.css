@@ -1,0 +1,11 @@
+@media(max-width: 768px) {
+    .width-wrapper{
+        
+        width: 768px;
+    }
+    
+    .caption{
+        
+        margin: auto;
+    }
+}

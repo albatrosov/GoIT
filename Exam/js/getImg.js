@@ -25,7 +25,7 @@ $(function() {
     }
     
     
-    getImg('image?')
+    getImg('image?word=nature')
     
     $('.ideas__search').on('click', function() {
         
