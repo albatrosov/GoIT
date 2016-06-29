@@ -1,0 +1,13 @@
+@media (max-width: 768px) and (min-width: 480px) {
+  .menu {
+    width: 100%; }
+  .slider img {
+    width: 30%; }
+  .slider .slider__text {
+    width: 30%; }
+  .starts {
+    margin-right: -100px; }
+    .starts .rose {
+      width: 100%; }
+    .starts .starts__triangle {
+      display: none; } }

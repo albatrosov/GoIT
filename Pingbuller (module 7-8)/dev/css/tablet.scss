@@ -1,0 +1,37 @@
+@media (max-width: 768px) and (min-width: 480px) {
+    
+    .menu{
+        
+        width: 100%;
+    }
+    
+    .slider {
+        
+        img{
+
+            width: 30%;
+        }
+        
+        .slider__text{
+            
+            width: 30%;
+        }
+        
+    } 
+    
+    
+    .starts{
+        
+        margin-right: -100px;
+        
+        .rose{
+            
+            width: 100%;
+        }
+        
+        .starts__triangle{
+            
+            display: none;
+        }
+    }
+}
