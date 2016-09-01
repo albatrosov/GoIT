@@ -11,7 +11,12 @@ button {
   color: #fff;
   border-radius: 18px;
   background-color: transparent;
-  border: 2px solid #ff4e50; }
+  border: 2px solid #ff4e50;
+  outline: none; }
+  button:hover {
+    color: #ff4e50;
+    border-color: #ff4e50;
+    cursor: pointer; }
 
 header {
   height: 700px;
@@ -36,6 +41,8 @@ header {
       border-color: #fff;
       width: 90px;
       height: 36px; }
+      header .auth .auth__signup:hover {
+        border-color: #ff4e50; }
   header .caption {
     width: 490px;
     margin: auto;
@@ -52,92 +59,91 @@ header {
       height: 40px;
       width: 225px;
       margin-top: 35px; }
+      header .caption .caption__find:hover {
+        background-color: #fff; }
 
-content {
+.content {
   position: absolute;
   width: 100%;
   top: 700px;
   background-color: #ffffff; }
-  content .how {
+  .content .how {
     margin-top: 100px;
     height: 460px;
     margin-bottom: 120px; }
-    content .how h4 {
+    .content .how h4 {
       text-align: center;
       margin-bottom: 40px; }
-    content .how .instruction {
+    .content .how .instruction {
       float: left;
-      width: 310px;
-      height: 400px;
-      padding: 10px; }
-      content .how .instruction .slick-next {
-        position: absolute;
-        background-image: url(img/hands.png);
-        width: 30px;
-        height: 55px;
-        margin: -250px 0 0 280px;
-        z-index: 10; }
-      content .how .instruction .slick-prev {
-        position: absolute;
-        margin-top: 250px;
-        width: 30px;
-        height: 55px; }
-      content .how .instruction .slick-arrow {
+      width: 960px;
+      height: 500px;
+      padding: 10px;
+      margin-top: -50px; }
+      .content .how .instruction .slick-arrow {
         border: none; }
-  content .partners {
+  .content .partners {
     text-align: center;
     height: 370px;
     margin-bottom: 100px; }
-    content .partners h4 {
+    .content .partners h4 {
       margin-bottom: 35px; }
-    content .partners .partner {
+    .content .partners .partner {
       width: 240px;
       margin-bottom: 50px;
       float: left; }
-      content .partners .partner h5 {
+      .content .partners .partner h5 {
         margin: 15px 0; }
-      content .partners .partner p {
+      .content .partners .partner p {
         margin: auto;
         color: #666666;
         font: 300 14px Roboto;
         width: 85%; }
-    content .partners .others {
+    .content .partners .others {
       color: #ff4e50;
       width: 192px;
       height: 40px;
       margin: auto; }
-  content .activities {
+      .content .partners .others:hover {
+        background-color: #ff4e50;
+        color: #fff; }
+  .content .activities {
     clear: both; }
-    content .activities .activity {
+    .content .activities .activity {
       margin-bottom: 100px; }
-      content .activities .activity h4 {
+      .content .activities .activity h4 {
         text-align: center;
         margin-bottom: 35px; }
-      content .activities .activity .grid-sizer, content .activities .activity .grid-item {
+      .content .activities .activity .grid-sizer, .content .activities .activity .grid-item {
         width: 30%; }
-        content .activities .activity .grid-sizer img, content .activities .activity .grid-item img {
+        .content .activities .activity .grid-sizer img, .content .activities .activity .grid-item img {
           height: 90%;
           width: 90%; }
-  content .ideas {
+  .content .ideas {
     width: 410px;
     margin: auto;
     text-align: center; }
-    content .ideas h4 {
+    .content .ideas h4 {
       margin-bottom: 35px; }
-    content .ideas p {
+    .content .ideas p {
       margin-bottom: 40px; }
-    content .ideas input {
+    .content .ideas input {
       width: 240px;
-      height: 40px; }
-    content .ideas .ideas__search {
+      height: 40px;
+      padding: 5px;
+      box-sizing: border-box; }
+    .content .ideas .ideas__search {
       background-color: #ff4e50;
       width: 160px;
       height: 40px; }
+      .content .ideas .ideas__search:hover {
+        background-color: #fff;
+        color: #ff4e50; }
 
 footer {
   position: absolute;
   width: 100%;
-  top: 3000px;
+  top: 2800px;
   border-top: 4px solid #ff4e50; }
   footer .menu {
     float: left;

@@ -29,7 +29,8 @@
     color: transparent; }
 
 .menu {
-  float: right; }
+  float: right;
+  width: 60%;}
   .menu li {
     float: left;
     list-style: none;

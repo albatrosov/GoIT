@@ -26,6 +26,13 @@ button{
     border-radius: 18px;
     background-color: rgba(0, 0, 0, 0);
     border: 2px solid #ff4e50;
+    outline: none;
+
+    &:hover{
+    color: #ff4e50;
+    border-color: #ff4e50;
+    cursor: pointer;
+    }
 }
 
 header{
@@ -62,6 +69,9 @@ header{
             border-color: #fff;
             width: 90px;
             height: 36px;
+            &:hover{
+                border-color: #ff4e50;       
+            }
         }
     }
     
@@ -90,11 +100,14 @@ header{
             height: 40px;
             width: 225px;
             margin-top: 35px;
+            &:hover{
+                background-color: #fff;
+            }
         }
     }
 }
 
-content{
+.content{
     
     @include background;
     top: 700px;
@@ -115,27 +128,10 @@ content{
         .instruction{
 
             float: left;
-            width: ($width / 3) - $padding;
-            height: 400px;
+            width: 960px;
+            height: 500px;
             padding: $padding;
-            
-            .slick-next{
-                position: absolute;
-                background-image: url(img/hands.png);  
-//                background-color: #000;
-                width: 30px;
-                height: 55px;
-                margin: -250px 0 0 280px;
-                z-index: 10;
-            }
-            
-            .slick-prev{
-                
-                position: absolute;
-                margin-top: 250px;
-                 width: 30px;
-                height: 55px;
-            }
+            margin-top: -50px;
             
             .slick-arrow{
                 
@@ -181,6 +177,10 @@ content{
             width: 192px;
             height: 40px;
             margin: auto;
+            &:hover{
+                background-color: #ff4e50;
+                color: #fff;
+            }
         }
     }
     
@@ -232,6 +232,8 @@ content{
             
             width: 240px;
             height: 40px;
+            padding: 5px;
+            box-sizing: border-box;
         }
         
         .ideas__search{
@@ -239,6 +241,10 @@ content{
             background-color: #ff4e50;
             width: 160px;
             height: 40px;
+            &:hover{
+                background-color: #fff;
+                color: #ff4e50;
+            }
         }
     }    
 }
@@ -246,7 +252,7 @@ content{
 footer{
     
     @include background;
-    top: 3000px;
+    top: 2800px;
     border-top: 4px solid #ff4e50;
     
     .menu{
